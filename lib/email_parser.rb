@@ -10,8 +10,10 @@ class EmailAddressParser
     end
   
     def parse
-      email.split(/[\s,]+/).uniq
+       email.split(/[\s,]+/).uniq
+      # split_email= email.split(" ").join
+      # split_email.split(",").uniq
     end
-    end
+  end
   
   
